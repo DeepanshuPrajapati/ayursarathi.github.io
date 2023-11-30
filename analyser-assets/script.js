@@ -84,8 +84,8 @@ const ayurvedicCuresHTML = data.ayurvedic_cure.map(cure => {
 
             // Display result 
             result.innerHTML = `<p>Prediction: <b>${data.disease}</b></p>
-                   <p>Ayurvedic Cure:</p>
-                   <ul>${data.ayurvedic_cure.map(cure => `<li>${cure}</li>`).join('')}</ul>`;
+                    <p>Ayurvedic Cure:</p>
+                    <ul>${ayurvedicCuresHTML}</ul>`;
 
         });
 
